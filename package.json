@@ -1,0 +1,21 @@
+{
+  "name": "geprek-ratna-barokah-backend",
+  "version": "1.0.0",
+  "description": "Backend + web app Ayam Geprek Ratna Barokah",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/api.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.22.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^13.2.0"
+  }
+}
